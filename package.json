@@ -1,0 +1,24 @@
+{
+  "name": "festivalmusical",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertoGR27/FestivalMusical.git"
+  },
+  "keywords": [
+    "SASS",
+    "GULP",
+    "HTML"
+  ],
+  "author": "Roberto Godinez Robles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobertoGR27/FestivalMusical/issues"
+  },
+  "homepage": "https://github.com/RobertoGR27/FestivalMusical#readme"
+}
