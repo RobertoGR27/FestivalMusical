@@ -1,0 +1,34 @@
+@use "variables" as v;
+
+//Mixins para crear los media query
+@mixin for-tablet {
+  @media (min-width: v.$tablet) {
+    @content;
+  }
+}
+
+@mixin for-cellphone{
+  @media (min-width: v.$cellphone){
+    @content;
+  }
+}
+
+@mixin desktop{
+  @media(min-width: v.$desktop){
+    @content;
+  }
+}
+
+// Mixin para crear grids
+@mixin grid($col, $gap) {
+  display: grid;
+  grid-template-columns: repeat($col, 1fr);
+  gap: $gap;
+}
+
+// Resetear los estilos de las listas
+@mixin resetear-lista{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
